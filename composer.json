@@ -1,0 +1,24 @@
+{
+    "name": "spaethtech/php-html",
+    "description": "A collection of useful HTML classes.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ryan Spaeth",
+            "email": "rspaeth@spaethtech.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+
+        "spaethtech/support": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "SpaethTech\\": "src/",
+            "Examples\\": "examples/",
+            "Tests\\": "tests/"
+        }
+    }
+}
